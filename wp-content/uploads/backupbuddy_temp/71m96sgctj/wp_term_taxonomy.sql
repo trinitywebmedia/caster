@@ -1,0 +1,16 @@
+CREATE TABLE `wp_term_taxonomy` (  `term_taxonomy_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `term_id` bigint(20) unsigned NOT NULL DEFAULT '0',  `taxonomy` varchar(32) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `description` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,  `parent` bigint(20) unsigned NOT NULL DEFAULT '0',  `count` bigint(20) NOT NULL DEFAULT '0',  PRIMARY KEY (`term_taxonomy_id`),  UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),  KEY `taxonomy` (`taxonomy`)) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_term_taxonomy` VALUES('1', '1', 'category', '', '0', '0');
+INSERT INTO `wp_term_taxonomy` VALUES('2', '2', 'nav_menu', '', '0', '4');
+INSERT INTO `wp_term_taxonomy` VALUES('3', '3', 'category', '', '0', '0');
+INSERT INTO `wp_term_taxonomy` VALUES('4', '4', 'category', '', '0', '0');
+INSERT INTO `wp_term_taxonomy` VALUES('5', '5', 'category', '', '0', '2');
+INSERT INTO `wp_term_taxonomy` VALUES('6', '6', 'post_tag', '', '0', '1');
+INSERT INTO `wp_term_taxonomy` VALUES('7', '7', 'post_tag', '', '0', '1');
+INSERT INTO `wp_term_taxonomy` VALUES('8', '8', 'post_tag', '', '0', '0');
+INSERT INTO `wp_term_taxonomy` VALUES('9', '9', 'post_tag', '', '0', '0');
+/*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

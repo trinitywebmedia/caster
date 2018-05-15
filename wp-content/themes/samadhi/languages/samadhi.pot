@@ -1,0 +1,953 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Samadhi Genesis Child Theme\n"
+"POT-Creation-Date: 2018-02-28 15:35+0800\n"
+"PO-Revision-Date: 2015-10-06 16:13+0800\n"
+"Last-Translator: Joe Mar Aparecio <joe@zigzagpress.com>\n"
+"Language-Team: zigzagpress <joe@zigzagpress.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: .\n"
+
+#: 404.php:59
+msgid "404 Page"
+msgstr ""
+
+#: 404.php:60
+msgid "Sorry, that page does not exist."
+msgstr ""
+
+#: 404.php:61
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:61
+msgid " <span>or</span> "
+msgstr ""
+
+#: 404.php:61
+msgid "Go Home"
+msgstr ""
+
+#: functions.php:81
+msgid "Primary Navigation Menu"
+msgstr ""
+
+#: functions.php:216
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:280
+msgid "Read More "
+msgstr ""
+
+#: functions.php:417
+msgid "Portfolio Sidebar"
+msgstr ""
+
+#: functions.php:418
+msgid "This is the sidebar for the portfolio single page."
+msgstr ""
+
+#: functions.php:422
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:423
+msgid "This the sidebar for the shop and product pages."
+msgstr ""
+
+#: functions.php:428
+msgid "Magazine Before Loop"
+msgstr ""
+
+#: functions.php:429
+msgid "This is a widget area before loop in the homepage."
+msgstr ""
+
+#: functions.php:433
+msgid "Magazine Widget"
+msgstr ""
+
+#: functions.php:434
+msgid "This is the homepage widget area."
+msgstr ""
+
+#: functions.php:438
+msgid "Magazine Left Content"
+msgstr ""
+
+#: functions.php:439
+msgid "This is the homepage left content widget area."
+msgstr ""
+
+#: functions.php:444
+msgid "Magazine Right Content"
+msgstr ""
+
+#: functions.php:445
+msgid "This is the homepage right content widget area."
+msgstr ""
+
+#: functions.php:461
+msgid "MENU"
+msgstr ""
+
+#: functions.php:488
+msgid "Search"
+msgstr ""
+
+#: functions.php:505
+msgid "Mobile Menu"
+msgstr ""
+
+#: include/cpt/class/class-super-custom-post-meta.php:521
+msgid "Add Image"
+msgstr ""
+
+#: include/cpt/class/class-super-custom-post-meta.php:577
+msgid "Add Images"
+msgstr ""
+
+#: include/cpt/class/class-super-custom-post-meta.php:578
+msgid "Clear Images"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:28
+msgid "Select what type of link you want for this portfolio item."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:29
+msgid "Type of Portfolio link"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:41
+msgid "Video Link"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:41
+msgid ""
+"Add video link here. Video link format: Youtube: \"http://www.youtube.com/"
+"watch?v=7HKoqNJtMTQ\", Vimeo: \"https://vimeo.com/123123\". Leave empty if "
+"you don't want to have a video on a lightbox."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:42
+msgid ""
+"Upload/Attach images to this portfolio item. Images attached in here will be "
+"shown in lightbox to form slideshow gallery."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:42
+msgid "Leave empty if you don't want to have a galley slideshow on a lightbox."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:50
+msgid "External Link"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:50
+msgid "Add external link for this portfolio item."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:60
+msgid ""
+"Upload/Attach an image to this portfolio item. Images attached in here will "
+"be shown in lightbox and single portfolio page."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:60
+msgid ""
+"Add images to this portfolio. If this is empty, the featured image will be "
+"use."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:72
+msgid "Author"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:74 include/widgets/class-carousel-widget.php:335
+#: include/widgets/class-post-box-widget.php:337
+#: include/widgets/class-post-sidebar.php:217
+#: include/widgets/class-post-slider-widget.php:293
+msgid "Date"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:75
+msgid "Portfolio Category(s)"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:76 include/widgets/class-carousel-widget.php:299
+#: include/widgets/class-carousel-widget.php:336
+#: include/widgets/class-post-box-widget.php:290
+#: include/widgets/class-post-box-widget.php:338
+#: include/widgets/class-post-sidebar.php:182
+#: include/widgets/class-post-sidebar.php:218
+#: include/widgets/class-post-slider-widget.php:257
+#: include/widgets/class-post-slider-widget.php:294
+msgid "Title"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:90
+msgid "Unable to get portfolio category."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:103
+msgid "Display Type"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:103
+msgid "Add images for gallery post format."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:104 include/widgets/class-carousel-widget.php:308
+#: include/widgets/class-post-box-widget.php:310
+#: include/widgets/class-post-sidebar.php:190
+#: include/widgets/class-post-slider-widget.php:266
+msgid "Category"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:104 include/cpt/zp_cpt.php:105
+msgid "Define category to display. Use the category slug."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:105
+msgid "Columns"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:106
+msgid "Enable filter?"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:106
+msgid "Select true to enable category filter."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:107
+msgid "Items"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:107
+msgid "Set number of items to display."
+msgstr ""
+
+#: include/cpt/zp_cpt.php:108
+msgid "Enable load more button?"
+msgstr ""
+
+#: include/cpt/zp_cpt.php:108
+msgid "Select true to enable the load more button at the bottom of the items."
+msgstr ""
+
+#: include/customizer/customizer.php:118
+msgid "Desktop Menu"
+msgstr ""
+
+#: include/customizer/customizer.php:123
+msgid "Show Menu on desktop"
+msgstr ""
+
+#: include/customizer/customizer.php:124
+msgid "Hide Menu on desktop"
+msgstr ""
+
+#: include/customizer/customizer.php:145 include/customizer/customizer.php:160
+#: include/customizer/customizer.php:172
+msgid "Shop Layout"
+msgstr ""
+
+#: include/customizer/customizer.php:188
+msgid "Footer Settings"
+msgstr ""
+
+#: include/customizer/customizer.php:208
+msgid "Footer Logo"
+msgstr ""
+
+#: include/customizer/customizer.php:219
+msgid "Accent Colors"
+msgstr ""
+
+#: include/customizer/customizer.php:228
+msgid "Accent Primary"
+msgstr ""
+
+#: include/customizer/customizer.php:239
+msgid "Accent Secondary"
+msgstr ""
+
+#: include/customizer/customizer.php:250
+msgid "Body Style"
+msgstr ""
+
+#: include/customizer/customizer.php:260
+msgid "Body Font Family"
+msgstr ""
+
+#: include/customizer/customizer.php:273
+msgid "Body Font Weight"
+msgstr ""
+
+#: include/customizer/customizer.php:286
+msgid "Body Font Style"
+msgstr ""
+
+#: include/customizer/customizer.php:298
+msgid "Body Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:310
+msgid "Body Color"
+msgstr ""
+
+#: include/customizer/customizer.php:341
+msgid "Secondary Font Family"
+msgstr ""
+
+#: include/customizer/customizer.php:354
+msgid "Secondary Font Weight"
+msgstr ""
+
+#: include/customizer/customizer.php:367
+msgid "Secondary Font Style"
+msgstr ""
+
+#: include/customizer/customizer.php:379
+msgid "Secondary Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:391
+msgid "Secondary Color"
+msgstr ""
+
+#: include/customizer/customizer.php:403
+msgid "Heading Style"
+msgstr ""
+
+#: include/customizer/customizer.php:413
+msgid "Headings Font Family"
+msgstr ""
+
+#: include/customizer/customizer.php:426
+msgid "Headings Font Weight"
+msgstr ""
+
+#: include/customizer/customizer.php:439
+msgid "Headings Font Style"
+msgstr ""
+
+#: include/customizer/customizer.php:452
+msgid "Headings Text Transform"
+msgstr ""
+
+#: include/customizer/customizer.php:464
+msgid "Headings Color"
+msgstr ""
+
+#: include/customizer/customizer.php:475
+msgid "H1 Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:487
+msgid "H2 Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:499
+msgid "H3 Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:511
+msgid "H4 Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:523
+msgid "H5 Font Size"
+msgstr ""
+
+#: include/customizer/customizer.php:535
+msgid "H6 Font Size"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:465
+msgid "Column 1"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:552
+msgid "Column 2"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:639
+msgid "Column 3"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:726
+msgid "Column 4"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:1063
+msgid "Show more options"
+msgstr ""
+
+#: include/metabox/cmb2-functions.php:1063
+msgid "<span class=\"more-trigger\">[+] "
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:292
+msgid "Install Required Plugins"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:293
+msgid "Install Plugins"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:295
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:297
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:298
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:350
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:351
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:352
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2752
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:353
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:355
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:357
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:360
+msgid "Dismiss this notice"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:361
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:362
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:1742
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:1996
+msgid "Required"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:1998
+msgid "Recommended"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2012
+msgid "WordPress Repository"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2015
+msgid "External Source"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2018
+msgid "Pre-Packaged"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2033
+msgid "Not Installed"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2036
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2038
+msgid "Active"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2042
+msgid "Required Update not Available"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2044
+msgid "Requires Update"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2046
+msgid "Update recommended"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2184
+msgid "Installed version:"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2191
+msgid "Minimum required version:"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2201
+msgid "Available version:"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2235
+msgid "Plugin"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2236
+msgid "Source"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2237
+msgid "Type"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2240
+msgid "Version"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2241
+msgid "Status"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2285
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2290
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2387
+msgid "Install"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+msgid "Update"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2395
+msgid "Activate"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2420
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2422
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2455
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2457
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:2751
+msgid "Plugin activation failed."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3039
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3042
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3044
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3047
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3049
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3050
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3052
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3055
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3058
+msgid "All installations have been completed."
+msgstr ""
+
+#: include/tgm-plugin-activation/class-tgm-plugin-activation.php:3060
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: include/theme_functions.php:220
+msgid "All"
+msgstr ""
+
+#: include/theme_functions.php:257 include/theme_functions.php:305
+#: include/theme_functions.php:490
+msgid "Load More Posts"
+msgstr ""
+
+#: include/theme_functions.php:257 include/theme_functions.php:442
+msgid "Loading..."
+msgstr ""
+
+#: include/theme_functions.php:257 include/theme_functions.php:442
+msgid "End of Posts"
+msgstr ""
+
+#: include/theme_functions.php:442
+msgid "Load More Posts    "
+msgstr ""
+
+#: include/theme_functions.php:821 include/theme_functions.php:891
+msgid "Published "
+msgstr ""
+
+#: include/theme_functions.php:821 include/theme_functions.php:891
+msgid "by "
+msgstr ""
+
+#: include/theme_functions.php:821 include/theme_functions.php:891
+msgid " in "
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:57
+#: include/widgets/class-post-box-widget.php:50
+#: include/widgets/class-post-slider-widget.php:52
+msgid "Read More..."
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:62
+msgid "Displays featured posts with carousel"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:71
+msgid "ZP - Post Carousel"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:152
+#: include/widgets/class-post-box-widget.php:145
+#: include/widgets/class-post-slider-widget.php:163
+msgid "(no title)"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:166
+#: include/widgets/class-post-box-widget.php:159
+#: include/widgets/class-post-slider-widget.php:151
+msgid "By "
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:203
+#: include/widgets/class-post-box-widget.php:196
+#: include/widgets/class-post-slider-widget.php:201
+msgid "Read More"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:316
+#: include/widgets/class-post-box-widget.php:319
+#: include/widgets/class-post-sidebar.php:198
+#: include/widgets/class-post-slider-widget.php:274
+msgid "All Categories"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:323
+#: include/widgets/class-post-box-widget.php:325
+#: include/widgets/class-post-sidebar.php:205
+#: include/widgets/class-post-slider-widget.php:281
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:328
+#: include/widgets/class-post-box-widget.php:330
+#: include/widgets/class-post-sidebar.php:210
+#: include/widgets/class-post-slider-widget.php:286
+msgid "Number of Posts to Offset"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:333
+#: include/widgets/class-post-box-widget.php:335
+#: include/widgets/class-post-sidebar.php:215
+#: include/widgets/class-post-slider-widget.php:291
+msgid "Order By"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:337
+#: include/widgets/class-post-box-widget.php:339
+#: include/widgets/class-post-sidebar.php:219
+#: include/widgets/class-post-slider-widget.php:295
+msgid "Parent"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:338
+#: include/widgets/class-post-box-widget.php:340
+#: include/widgets/class-post-sidebar.php:220
+#: include/widgets/class-post-slider-widget.php:296
+msgid "ID"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:339
+#: include/widgets/class-post-box-widget.php:341
+#: include/widgets/class-post-sidebar.php:221
+#: include/widgets/class-post-slider-widget.php:297
+msgid "Comment Count"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:340
+#: include/widgets/class-post-box-widget.php:342
+#: include/widgets/class-post-sidebar.php:222
+#: include/widgets/class-post-slider-widget.php:298
+msgid "Random"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:345
+#: include/widgets/class-post-box-widget.php:347
+#: include/widgets/class-post-sidebar.php:227
+#: include/widgets/class-post-slider-widget.php:303
+msgid "Sort Order"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:347
+#: include/widgets/class-post-box-widget.php:349
+#: include/widgets/class-post-sidebar.php:229
+#: include/widgets/class-post-slider-widget.php:305
+msgid "Descending (3, 2, 1)"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:348
+#: include/widgets/class-post-box-widget.php:350
+#: include/widgets/class-post-sidebar.php:230
+#: include/widgets/class-post-slider-widget.php:306
+msgid "Ascending (1, 2, 3)"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:355
+msgid "Slides per view"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:359
+msgid "Width of the space between slides(px)"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:363
+#: include/widgets/class-post-slider-widget.php:324
+msgid "Duration of transition between slides (ms)"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:368
+#: include/widgets/class-post-slider-widget.php:329
+msgid "Slider navigation"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:372
+msgid "Slider pagination"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:383
+#: include/widgets/class-post-box-widget.php:362
+#: include/widgets/class-post-slider-widget.php:340
+msgid "Show Post Title"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:387
+#: include/widgets/class-post-box-widget.php:366
+#: include/widgets/class-post-slider-widget.php:344
+msgid "Show Post Date"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:392
+#: include/widgets/class-post-box-widget.php:371
+#: include/widgets/class-post-slider-widget.php:349
+msgid "Show Post Author"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:397
+#: include/widgets/class-post-box-widget.php:376
+#: include/widgets/class-post-slider-widget.php:354
+msgid "Show Post Comments"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:401
+#: include/widgets/class-post-box-widget.php:380
+#: include/widgets/class-post-slider-widget.php:358
+msgid "Content Type"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:403
+#: include/widgets/class-post-box-widget.php:382
+#: include/widgets/class-post-slider-widget.php:360
+msgid "Show Content"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:404
+#: include/widgets/class-post-box-widget.php:383
+#: include/widgets/class-post-slider-widget.php:361
+msgid "Show Excerpt"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:405
+#: include/widgets/class-post-box-widget.php:384
+#: include/widgets/class-post-slider-widget.php:362
+msgid "Show Content Limit"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:406
+#: include/widgets/class-post-box-widget.php:385
+#: include/widgets/class-post-slider-widget.php:363
+msgid "No Content"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:409
+#: include/widgets/class-post-box-widget.php:388
+#: include/widgets/class-post-slider-widget.php:366
+msgid "Limit content to"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:411
+#: include/widgets/class-post-box-widget.php:390
+#: include/widgets/class-post-slider-widget.php:368
+msgid "characters"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:417
+#: include/widgets/class-post-box-widget.php:396
+#: include/widgets/class-post-slider-widget.php:374
+msgid "Show Read More?"
+msgstr ""
+
+#: include/widgets/class-carousel-widget.php:421
+#: include/widgets/class-post-box-widget.php:400
+#: include/widgets/class-post-slider-widget.php:378
+msgid "More Text"
+msgstr ""
+
+#: include/widgets/class-post-box-widget.php:55
+msgid "Displays featured posts with thumbnails"
+msgstr ""
+
+#: include/widgets/class-post-box-widget.php:64
+msgid "ZP - Post Box"
+msgstr ""
+
+#: include/widgets/class-post-box-widget.php:298
+msgid "Layout"
+msgstr ""
+
+#: include/widgets/class-post-sidebar.php:46
+msgid "Displays featured posts"
+msgstr ""
+
+#: include/widgets/class-post-sidebar.php:55
+msgid "ZP - Post Sidebar"
+msgstr ""
+
+#: include/widgets/class-post-slider-widget.php:57
+msgid "Displays featured posts in a slider"
+msgstr ""
+
+#: include/widgets/class-post-slider-widget.php:66
+msgid "ZP - Post Slider"
+msgstr ""
+
+#: include/widgets/class-post-slider-widget.php:311
+msgid "Image Size"
+msgstr ""
+
+#: page_archive.php:25
+msgid "Pages:"
+msgstr ""
+
+#: page_archive.php:30
+msgid "Categories:"
+msgstr ""
+
+#: page_archive.php:37
+msgid "Authors:"
+msgstr ""
+
+#: page_archive.php:42
+msgid "Monthly:"
+msgstr ""
+
+#: page_archive.php:47
+msgid "Recent Posts:"
+msgstr ""
+
+#: single-portfolio.php:180
+msgid " by "
+msgstr ""
+
+#: woocommerce/archive-product.php:59 woocommerce/taxonomy.php:82
+msgid "No products found which match your selection."
+msgstr ""

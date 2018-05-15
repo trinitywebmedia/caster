@@ -1,0 +1,16 @@
+CREATE TABLE `wp_terms` (  `term_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,  `name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `slug` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',  `term_group` bigint(10) NOT NULL DEFAULT '0',  PRIMARY KEY (`term_id`),  KEY `slug` (`slug`(191)),  KEY `name` (`name`(191))) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `wp_terms` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_terms` VALUES('1', 'Uncategorized', 'uncategorized', '0');
+INSERT INTO `wp_terms` VALUES('2', 'Header', 'header', '0');
+INSERT INTO `wp_terms` VALUES('3', 'Android', 'android', '0');
+INSERT INTO `wp_terms` VALUES('4', 'iOS', 'ios', '0');
+INSERT INTO `wp_terms` VALUES('5', 'Blockchain', 'blockchain', '0');
+INSERT INTO `wp_terms` VALUES('6', 'Solidity', 'solidity', '0');
+INSERT INTO `wp_terms` VALUES('7', 'Ethereum', 'ethereum', '0');
+INSERT INTO `wp_terms` VALUES('8', 'kotlin', 'kotlin', '0');
+INSERT INTO `wp_terms` VALUES('9', 'sealed class', 'sealed-class', '0');
+/*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

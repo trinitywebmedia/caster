@@ -1,0 +1,60 @@
+/**
+ * This css adds custom admin style to the Samadhi Theme.
+ *
+ * @package Samadhi\CSS
+ * @author ZigzagPress
+ * @license GPL-2.0+
+ */
+ 
+#zpmeta_section_metabox .cmb-repeatable-grouping .cmb-nested .cmb-row:not([class*="section-block-select"]):not([class*="section-more-trigger"]):not(.cmb-group-title):not(.cmb-remove-field-row) {
+	display: none;
+}
+#zpmeta_section_metabox .cmb2-wrap .cmb-group-title,
+#zpmeta_section_metabox .cmb2-wrap .expanded.closed .cmb-group-title {
+	border-bottom: 4px solid #E0E0E0 !important;
+}
+#zpmeta_section_metabox .cmb2-wrap .expanded .cmb-group-title {
+	border-bottom: 4px solid #2EA2CC !important;
+}
+#zpmeta_section_metabox .more-trigger {
+	color: #0074A2;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+}
+#zpmeta_section_metabox .column-trigger {
+	color: #0074A2;
+	text-align: left;
+	display: block;
+	font-size: 14px;
+	cursor: pointer;
+}
+#zpmeta_section_metabox .more-trigger:active,
+#zpmeta_section_metabox .more-trigger:hover {
+	color: #2EA2CC;
+}
+#zpmeta_section_metabox .cmb-repeat-group-wrap .cmb-row,
+#zpmeta_section_metabox .postbox-container .cmb-row {
+	margin-bottom: 0;
+}
+#zpmeta_section_metabox .cmb-repeatable-grouping.cmb-row {
+	margin-bottom: 1em;
+}
+#zpmeta_section_metabox .cmb-repeat-group-wrap .cmb-repeat-group-field {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.visuallyhidden { 
+	position: absolute; 
+	overflow: hidden; 
+	clip: rect(0 0 0 0); 
+	height: 1px; width: 1px; 
+	margin: -1px; padding: 0; border: 0; 
+}
+#zpmeta_portfolio_metabox #cmb2-metabox-zpmeta_portfolio_metabox > .cmb-field-list .cmb-row{
+	display: none;
+}
+#zpmeta_portfolio_metabox  .cmb-field-list > .cmb-row.cmb2-id-zpmeta-portfolio-single-type{
+	display: block;
+}
