@@ -385,7 +385,7 @@ button,
 textarea,
 input[type="button"],
 input[type="reset"],
-input[type="submit"],
+/*input[type="submit"],*/
 input[type="password"],
 input[type="url"],
 input[type="text"],
@@ -664,15 +664,16 @@ th {
 	border: 1px solid #5b5e5e;
 	clip: auto !important;
 	display: block;
-	font-size: 18px;
-	font-size: 1.8rem;
+	/* font-size: 18px; */
+	/* font-size: 1.8rem; */
 	font-weight: 700;
 	height: auto;
-	padding: 20px;
+	/*padding: 20px;*/
 	text-decoration: none;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
 }
+
 
 .genesis-skip-link {
 	margin: 0;
@@ -1116,17 +1117,18 @@ a[rel~="attachment"]:hover,
 	position: relative;
 	width: 100%;
 	margin-bottom: 20px;
-	background-color: #eec04e;
+	background-color: #004754;
 }
 
-.search-form input[type="search"] {
+search-form input[type="search"] {
 	width: 100%;
 	margin-bottom: 10px;
 }
 
-.search-form input[type="submit"] {
+search-form input[type="submit"] {
   width: 100%;
 }
+
 
 
 /* Site Header
@@ -1767,6 +1769,11 @@ border: 1px solid #12302c;
 
 .author-box-title {
 	margin-bottom: 5px;
+}
+
+.author-box a {
+	color: #000;
+	text-decoration: underline;
 }
 
 /* Breadcrumbs
