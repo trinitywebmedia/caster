@@ -1714,7 +1714,7 @@ search-form input[type="submit"] {
 }
 
 .entry-meta {
-	font-size: 14px;
+	font-size: 20px;
 }
 
 a.more-link {
@@ -1765,6 +1765,7 @@ border: 1px solid #12302c;
 	margin-top: 10px;
 	margin-left: -120px;
 	position: absolute;
+	border-radius: 100%;
 }
 
 .author-box-title {
@@ -1775,6 +1776,18 @@ border: 1px solid #12302c;
 	color: #000;
 	text-decoration: underline;
 }
+
+.author-avatar {
+	border-radius: 100%;
+}
+
+.single .entry-header .avatar {
+    margin-right: 20px;
+    border-radius: 100%;
+    max-width: 80px;
+    height: 80px;
+    width: 80px;
+}	
 
 /* Breadcrumbs
  * ========================================================================== */

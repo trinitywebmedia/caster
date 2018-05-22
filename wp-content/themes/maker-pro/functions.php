@@ -24,12 +24,12 @@ define( 'CHILD_THEME_VERSION', '1.0.1' );
 add_action( 'wp_enqueue_scripts', 'maker_scripts_styles' );
 function maker_scripts_styles() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Martel:200,700,900|Roboto+Condensed:700', array(), CHILD_THEME_VERSION );
-	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
+    wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Martel:200,700,900|Roboto+Condensed:700', array(), CHILD_THEME_VERSION );
+    wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
 
-	wp_enqueue_script( 'maker-fitvids', get_stylesheet_directory_uri() . '/js/jquery.fitvids.js', array(), CHILD_THEME_VERSION );
+    wp_enqueue_script( 'maker-fitvids', get_stylesheet_directory_uri() . '/js/jquery.fitvids.js', array(), CHILD_THEME_VERSION );
   wp_enqueue_script( 'maker-global', get_stylesheet_directory_uri() . '/js/global.js', array(), CHILD_THEME_VERSION );
-	wp_enqueue_script( 'maker-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array(), CHILD_THEME_VERSION );
+    wp_enqueue_script( 'maker-responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array(), CHILD_THEME_VERSION );
 
 }
 
@@ -40,11 +40,11 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 add_theme_support( 'genesis-accessibility', array( '404-page', 'drop-down-menu', 'headings', 'search-form', 'skip-links' ) );
 
 add_theme_support( 'genesis-structural-wraps', array(
-	'header',
-	'subnav',
-	'site-inner',
-	'footer-widgets',
-	'footer'
+    'header',
+    'subnav',
+    'site-inner',
+    'footer-widgets',
+    'footer'
 ) );
 
 //* Add screen reader class to archive description
@@ -59,11 +59,11 @@ add_theme_support( 'genesis-responsive-viewport' );
 
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
-	'width'           => 400,
-	'height'          => 150,
-	'header-selector' => '.site-title a',
-	'header-text'     => false,
-	'flex-height'     => true,
+    'width'           => 400,
+    'height'          => 150,
+    'header-selector' => '.site-title a',
+    'header-text'     => false,
+    'flex-height'     => true,
 ) );
 
 //* Add Image Sizes
@@ -73,7 +73,6 @@ add_image_size( 'post_wide', 1200, 600, TRUE );
 
 //* Overide Genesis Portfolio Pro featured Image
 add_image_size( 'portfolio', 800, 600, TRUE );
-
 
 /* ==========================================================================
  * Navigation
@@ -97,7 +96,6 @@ function maker_remove_genesis_metaboxes( $_genesis_theme_settings_pagehook ) {
     remove_meta_box( 'genesis-theme-settings-nav', $_genesis_theme_settings_pagehook, 'main' );
 
 }
-
 
 /* ==========================================================================
  * Widget Areas
@@ -124,109 +122,108 @@ genesis_unregister_layout( 'sidebar-content-sidebar' );
 //* Setup widget counts
 function maker_count_widgets( $id ) {
 
-	global $sidebars_widgets;
+    global $sidebars_widgets;
 
-	if ( isset( $sidebars_widgets[ $id ] ) ) {
-		return count( $sidebars_widgets[ $id ] );
-	}
+    if ( isset( $sidebars_widgets[ $id ] ) ) {
+        return count( $sidebars_widgets[ $id ] );
+    }
 
 }
 
 //* Flexible widget classes
 function maker_widget_area_class( $id ) {
 
-	$count = maker_count_widgets( $id );
+    $count = maker_count_widgets( $id );
 
-	$class = '';
+    $class = '';
 
-	if( $count == 1 ) {
-		$class .= ' widget-full';
-	} elseif( $count % 3 == 0 ) {
-		$class .= ' widget-thirds';
-	} elseif( $count % 4 == 0 ) {
-		$class .= ' widget-fourths';
-	} elseif( $count % 2 == 0 ) {
-		$class .= ' widget-halves even';
-	} else {
-		$class .= ' widget-halves uneven';
-	}
-	return $class;
+    if( $count == 1 ) {
+        $class .= ' widget-full';
+    } elseif( $count % 3 == 0 ) {
+        $class .= ' widget-thirds';
+    } elseif( $count % 4 == 0 ) {
+        $class .= ' widget-fourths';
+    } elseif( $count % 2 == 0 ) {
+        $class .= ' widget-halves even';
+    } else {
+        $class .= ' widget-halves uneven';
+    }
+    return $class;
 
 }
 
 //* Flexible widget classes
 function maker_halves_widget_area_class( $id ) {
 
-	$count = maker_count_widgets( $id );
+    $count = maker_count_widgets( $id );
 
-	$class = '';
+    $class = '';
 
-	if( $count == 1 ) {
-		$class .= ' widget-full';
-	} elseif( $count % 2 == 0 ) {
-		$class .= ' widget-halves';
-	} else {
-		$class .= ' widget-halves uneven';
-	}
-	return $class;
+    if( $count == 1 ) {
+        $class .= ' widget-full';
+    } elseif( $count % 2 == 0 ) {
+        $class .= ' widget-halves';
+    } else {
+        $class .= ' widget-halves uneven';
+    }
+    return $class;
 
 }
 
 //* Register widget areas
 genesis_register_sidebar( array(
-	'id'          => 'front-page-6',
-	'name'        => __( 'Front Page Top: Left Aligned Titles', 'maker' ),
-	'description' => __( 'This is the top section on the front page. It is the default width and puts the widget titles to the left of the content.', 'maker' )
+    'id'          => 'front-page-6',
+    'name'        => __( 'Front Page Top: Left Aligned Titles', 'maker' ),
+    'description' => __( 'This is the top section on the front page. It is the default width and puts the widget titles to the left of the content.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-1',
-	'name'        => __( 'Front Page 1: Thin Width', 'maker' ),
-	'description' => __( 'This is the 1st section on the front page. It has a thinner width.', 'maker' )
+    'id'          => 'front-page-1',
+    'name'        => __( 'Front Page 1: Thin Width', 'maker' ),
+    'description' => __( 'This is the 1st section on the front page. It has a thinner width.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-2',
-	'name'        => __( 'Front Page 2: Full Width', 'maker' ),
-	'description' => __( 'This is the 2nd section on the front page. It is full width but will respond to the number of widgets inside.', 'maker' )
+    'id'          => 'front-page-2',
+    'name'        => __( 'Front Page 2: Full Width', 'maker' ),
+    'description' => __( 'This is the 2nd section on the front page. It is full width but will respond to the number of widgets inside.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-3',
-	'name'        => __( 'Front Page 3: Thin Width', 'maker' ),
-	'description' => __( 'This is the 3rd section on the front page. It has a thinner width.', 'maker' )
+    'id'          => 'front-page-3',
+    'name'        => __( 'Front Page 3: Thin Width', 'maker' ),
+    'description' => __( 'This is the 3rd section on the front page. It has a thinner width.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-4',
-	'name'        => __( 'Front Page 4', 'maker' ),
-	'description' => __( 'This is the 4th section on the front page. It has the default width.', 'maker' )
+    'id'          => 'front-page-4',
+    'name'        => __( 'Front Page 4', 'maker' ),
+    'description' => __( 'This is the 4th section on the front page. It has the default width.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-5',
-	'name'        => __( 'Front Page 5: Full Width', 'maker' ),
-	'description' => __( 'This is the 5th section on the front page. It is full width.', 'maker' )
+    'id'          => 'front-page-5',
+    'name'        => __( 'Front Page 5: Full Width', 'maker' ),
+    'description' => __( 'This is the 5th section on the front page. It is full width.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-7',
-	'name'        => __( 'Front Page 7', 'maker' ),
-	'description' => __( 'This is the 7th section on the front page. It is the default width and responds to the number of widgets in it.', 'maker' )
+    'id'          => 'front-page-7',
+    'name'        => __( 'Front Page 7', 'maker' ),
+    'description' => __( 'This is the 7th section on the front page. It is the default width and responds to the number of widgets in it.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-8',
-	'name'        => __( 'Front Page 8', 'maker' ),
-	'description' => __( 'This is the 8th section on the front page. It is the default width and responds to the number of widgets in it.', 'maker' )
+    'id'          => 'front-page-8',
+    'name'        => __( 'Front Page 8', 'maker' ),
+    'description' => __( 'This is the 8th section on the front page. It is the default width and responds to the number of widgets in it.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-9',
-	'name'        => __( 'Front Page 9: Thin Width', 'maker' ),
-	'description' => __( 'This is the 9th section on the front page. It has a thinner width.', 'maker' )
+    'id'          => 'front-page-9',
+    'name'        => __( 'Front Page 9: Thin Width', 'maker' ),
+    'description' => __( 'This is the 9th section on the front page. It has a thinner width.', 'maker' )
 ) );
 genesis_register_sidebar( array(
-	'id'          => 'front-page-10',
-	'name'        => __( 'Front Page 10: Full Width', 'maker' ),
-	'description' => __( 'This is the 10th section on the front page. It is full width.', 'maker' )
+    'id'          => 'front-page-10',
+    'name'        => __( 'Front Page 10: Full Width', 'maker' ),
+    'description' => __( 'This is the 10th section on the front page. It is full width.', 'maker' )
 ) );
 
 //* Add support for 4-column footer widget
 add_theme_support( 'genesis-footer-widgets', 5 );
-
 
 /* ==========================================================================
  * Blog Related
@@ -236,8 +233,8 @@ add_theme_support( 'genesis-footer-widgets', 5 );
 add_filter( 'genesis_post_info', 'maker_entry_meta_header' );
 function maker_entry_meta_header($post_info) {
 
-	$post_info = '[post_categories before="" after=" &middot;"] [post_date] [post_edit before=" &middot; "]';
-	return $post_info;
+    $post_info = '[post_categories before="" after=" &middot;"] [post_date] [post_edit before=" &middot; "]';
+    return $post_info;
 
 }
 
@@ -245,23 +242,23 @@ function maker_entry_meta_header($post_info) {
 add_filter( 'get_the_content_limit', 'maker_content_limit_read_more_markup', 10, 3 );
 function maker_content_limit_read_more_markup( $output, $content, $link ) {
 
-	$output = sprintf( '<p>%s &#x02026;</p><p>%s</p>', $content, str_replace( '&#x02026;', '', $link ) );
+    $output = sprintf( '<p>%s &#x02026;</p><p>%s</p>', $content, str_replace( '&#x02026;', '', $link ) );
 
-	return $output;
+    return $output;
 
 }
 
 //* Modify the Genesis content limit read more link
 add_filter( 'get_the_content_more_link', 'maker_read_more_link' );
 function maker_read_more_link() {
-	return '<a class="more-link" href="' . get_permalink() . '">Continue Reading</a>';
+    return '<a class="more-link" href="' . get_permalink() . '">Continue Reading</a>';
 }
 
 //* Customize author box title
 add_filter( 'genesis_author_box_title', 'maker_author_box_title' );
 function maker_author_box_title() {
 
-	return '<span itemprop="name">' . get_the_author() . '</span>';
+    return '<span itemprop="name">' . get_the_author() . '</span>';
 
 }
 
@@ -269,54 +266,47 @@ function maker_author_box_title() {
 add_filter( 'genesis_author_box_gravatar_size', 'maker_author_box_gravatar' );
 function maker_author_box_gravatar( $size ) {
 
-	return 160;
+    return 160;
 
 }
+
 
 //* Remove entry meta in the entry footer on category pages
 add_action( 'genesis_before_entry', 'maker_remove_entry_footer' );
 function maker_remove_entry_footer() {
 
-	if ( is_front_page() || is_archive() || is_search() || is_home() || is_page_template( 'page_blog.php' ) ) {
+    if ( is_front_page() || is_archive() || is_search() || is_home() || is_page_template( 'page_blog.php' ) ) {
 
-		remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
-		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-		remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
+        remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
+        remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+        remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
 
-	}
+    }
 
 }
 
-//* Display author box on single posts
-add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
+add_action('genesis_entry_header', 'topleague_post_author_avatar');
 
-//* Display author box on archive pages
-add_filter( 'get_the_author_genesis_author_box_archive', '__return_true' );
+function topleague_post_author_avatar() {
+if (is_single() ) {
+  echo get_avatar(get_the_author_meta('email'), 40); // change the number to increse/decrease gravatar size
+}}
 
-//* Change the footer text
-add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
-function sp_footer_creds_filter( $creds ) {
-	$creds = '';
-	return $creds;
-}
 //* Do NOT include the opening php tag
+
 //* Display featured image before single entry title.
-add_action( 'genesis_before_entry', 'featured_post_image', 10 );
+add_action( 'genesis_before_entry', 'featured_post_image', 8 );
 function featured_post_image() {
   if ( ! is_singular( 'post' ) )  return;
-	the_post_thumbnail('post_wide');
+	the_post_thumbnail('large');
 }
-/**
- * Hook author avatar by post title on single post
- *
- * @uses get_avatar() <http://codex.wordpress.org/Function_Reference/get_avatar>
- * @uses get_author_posts_url() <http://codex.wordpress.org/Function_Reference/get_author_posts_url>
- */
-add_action( 'genesis_entry_header', 'cd_author_gravatar' );
-function cd_author_gravatar() {
- if ( is_singular( 'post' ) ) {
- $entry_author = get_avatar( get_the_author_meta( 'email' ), 64 );
- $author_link = get_author_posts_url( get_the_author_meta( 'ID' ) );
- printf( '<div class="author-avatar"><a href="%s">%s</a></div>', $author_link, $entry_author );
- }
+
+/* Change header logo link in Genesis
+----------------------------------------------------------------------------------------*/
+add_filter('genesis_seo_title', 'ag_change_logo_url', 10, 3 );
+function ag_change_logo_url( $title, $inside, $wrap ) {
+	$inside = sprintf( '<a href="%s" title="%s">%s</a>', esc_url( 'http://caster.io' ), esc_attr( get_bloginfo( 'name' ) ), get_bloginfo( 'name' ) );
+	$title = sprintf( '<%s class="site-title" itemscope="headline">%s</%s>', $wrap, $inside, $wrap );
+	return $title;
 }
+/*add_action( 'genesis_entry_content', 'genesis_do_author_box_single', 8 );*/
